@@ -1,7 +1,7 @@
 import "./Privacy.css"
 
 const Privacy = () => {
-    const currentYear = new Date().getFullYear(); // Haalt het huidige jaar op
+    const currentYear = new Date().getFullYear(); 
     return (
         <>
         <div className="privacy">

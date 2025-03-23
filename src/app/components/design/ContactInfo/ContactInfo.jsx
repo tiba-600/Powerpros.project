@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { fetchContactInfo } from "../../../../data/api"; // Zorg ervoor dat de juiste import gebruikt wordt!
+import { fetchContactInfo } from "../../../../data/api"; 
 import { FaPhone, FaEnvelope, FaClock } from "react-icons/fa";
 import "./ContactInfo.css";
 

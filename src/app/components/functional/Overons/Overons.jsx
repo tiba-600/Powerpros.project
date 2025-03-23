@@ -51,7 +51,7 @@ const Overons = () => {
             ))}
 
             <div className="overons__werk">
-                <img src="/public/foto's/belgium.png" alt="" />
+                <img src="/foto's/belgium.png" alt="" />
             </div>
           <div className="overons__reviews">
             <div className="overons__klant">

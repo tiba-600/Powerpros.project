@@ -43,7 +43,6 @@ const Instructie = () => {
                   className="instructie__link"
                 >
                   {vraag.vraag}
-                  {/* <FaArrowRight size={16} className="icon" /> */}
                 </Link>
               </li>
             ))}
