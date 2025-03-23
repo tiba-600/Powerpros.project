@@ -5,9 +5,10 @@
 }
 
 .diensten__title h2 {
-    font-size: 2em; 
+    font-size: 1.3em; 
     margin: 2rem 2rem;
     color: var(--primary);
+    font-family: "Raleway-Bloed";
 }
 
 .diensten__list ul {

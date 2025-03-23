@@ -14,3 +14,33 @@ body {
 --white:#fbfbfb;
 }
 
+@font-face {
+    font-family: "Gothic medium";
+    src: url("../fonts/ITC\ Avant\ Garde\ Gothic\ Std\ Medium.woff") format("woff");
+  }
+  
+  @font-face {
+    font-family: "Gothic blod";
+    src: url("../fonts/ITC\ Avant\ Garde\ Gothic\ Std\ Bold.woff") format("woff");
+  }
+  
+  @font-face {
+    font-family: "Raleway-Bloed";
+    src: url("../fonts/Raleway-Bold.woff") format("woff");
+  }
+  
+  @font-face {
+    font-family: "Raleway-ExtraBloed";
+    src: url("../fonts/Raleway-ExtraBold.woff") format("woff");
+  }
+  
+  @font-face {
+    font-family: "Raleway-Medium";
+    src: url("../fonts/Raleway-Medium.woff") format("woff");
+  }
+  
+  @font-face {
+    font-family: "Raleway-SemiBlod";
+    src: url("../fonts/Raleway-SemiBold.woff") format("woff");
+  }
+

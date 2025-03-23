@@ -26,7 +26,7 @@
     }
 }
 
-/* Media queries voor mobiele apparaten */
+/* Media queries voor mobiele*/
 @media (max-width: 480px) {
     .contact {
         margin: 2rem; 

@@ -56,7 +56,7 @@
     }
 }
 
-/* Media queries voor mobiele apparaten */
+/* Media queries voor mobiele*/
 @media (max-width: 480px) {
     .home {
         height: 200px; 

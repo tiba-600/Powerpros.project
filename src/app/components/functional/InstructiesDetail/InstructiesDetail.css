@@ -4,6 +4,7 @@
 
 .instructie-detail h2 {
   font-size: 1.5rem;
+  font-family: 'Raleway-Medium';
 }
 
 .instructiesdetail {
@@ -116,7 +117,7 @@
   }
 }
 
-/* Media Queries voor mobiele apparaten */
+/* Media Queries voor mobiele*/
 @media (max-width: 480px) {
   .instructiesdetail {
     margin: 2rem;
@@ -140,9 +141,6 @@
   .instructiesdetail__vragenlijst li {
     padding: 1rem;
     max-width: 100%;
-  }
-
-  .instructiesdetail__vragenlijst h3 {
   }
 
   .instructiesdetail__flex {
