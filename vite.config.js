@@ -4,7 +4,8 @@ import path from "path";
 
 export default defineConfig({
   plugins: [react()],
-  base: process.env.VITE_BASE_PATH || "/Powerpros.project",
+  base: process.env.VITE_BASE_PATH || "/",
+  // base: process.env.VITE_BASE_PATH || "/Powerpros.project",
   resolve: {
     alias: {
       "@design": path.resolve("./src/app/components/design"),
@@ -12,7 +13,6 @@ export default defineConfig({
       "@core": path.resolve("./src/core"),
       "@pages": path.resolve("./src/app/pages"),
       "@style": path.resolve("./src/app/style"),
-      // "@style": path.resolve("./src/app/style"),
     },
   },
 });
