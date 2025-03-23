@@ -4,7 +4,7 @@ const HomeTitle = () => {
     return (
         <div className="home">
 
-            <img src="/public/foto's/home.jpg" alt="Electrical Work" className="home__img" />
+            <img src="/foto's/home.jpg" alt="Electrical Work" className="home__img" />
 
             <div className="home__overlay">
                 <p className="home__title">
