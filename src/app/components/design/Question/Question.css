@@ -1,0 +1,85 @@
+.faq {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5rem 0;
+}
+
+.faq__vragen {
+    border: 3px solid var(--primary);
+    border-radius: 10px;
+    margin: 1rem;
+    padding: 1.5rem;
+    color: var(--color);
+    cursor: pointer;
+    width: 100%; 
+    max-width: 800px;
+}
+
+.faq_vraag {
+    font-size: 1.3rem;
+    color: var(--primary);
+}
+
+.faq__antwoorden {
+    color: var(--icon);
+    font-size: 1.3rem;
+    width: 100%; 
+    max-width: 30rem; 
+    padding-top: 0.5rem;
+}
+
+.faq-title {
+    margin-top: 2rem;
+    text-align: center;
+    font-size: 2rem;
+    color: var(--primary);
+}
+
+/* Media queries voor tablets */
+@media (max-width: 768px) {
+    .faq {
+        margin: 3rem 0; 
+    }
+
+    .faq__vragen {
+        padding: 1rem; 
+    }
+
+    .faq_vraag {
+        font-size: 1.2rem; 
+    }
+
+    .faq__antwoorden {
+        font-size: 1.2rem; 
+    }
+
+    .faq-title {
+        font-size: 1.8rem; 
+    }
+}
+
+/* Media queries voor mobiele apparaten */
+@media (max-width: 480px) {
+    .faq {
+        margin: 2rem 0; 
+    }
+
+    .faq__vragen {
+        padding: 0.8rem; 
+        margin: 0.5rem; 
+        width:95%;
+    }
+
+    .faq_vraag {
+        font-size: 1.1rem; 
+    }
+
+    .faq__antwoorden {
+        font-size: 1.1rem; 
+    }
+
+    .faq-title {
+        font-size: 1.5rem; 
+    }
+}

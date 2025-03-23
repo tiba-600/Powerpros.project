@@ -1,0 +1,98 @@
+.diensten {
+    text-align: center;
+    padding: 20px;
+    margin-top: 5rem;
+}
+
+.diensten__title h2 {
+    font-size: 2em; 
+    margin: 2rem 2rem;
+    color: var(--primary);
+}
+
+.diensten__list ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    list-style: none;
+    padding: 0;
+    margin-bottom: 5rem;
+}
+
+.diensten__list li {
+    width: calc(33.333% - 20px); 
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.diensten__img {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+.img--detail {
+    display: flex;
+     width: 100px;
+     height: 100px;
+     border-radius: 50%;
+     object-fit: cover;
+}
+
+.diensten__list p {
+    margin-top: 10px;
+    font-size: 1.1em; 
+    font-weight: bold;
+    color: var(--primary);
+}
+
+.diensten__gevonden {
+    color: red;
+    font-size: 1.2rem;
+    background-color: red;
+}
+
+/* Media queries voor tablets */
+@media (max-width: 768px) {
+    .diensten {
+        margin-top: 3rem; 
+    }
+
+    .diensten__title h2 {
+        font-size: 1.8em;
+        margin: 1.5rem 1.5rem;
+    }
+
+    .diensten__list li {
+        width: calc(50% - 20px); 
+    }
+
+    .diensten__list p {
+        font-size: 1em; 
+    }
+}
+
+/* Media queries voor mobiele apparaten */
+@media (max-width: 480px) {
+    .diensten {
+        margin-top: 2rem; 
+    }
+
+    .diensten__title h2 {
+        font-size: 1.5em; 
+        margin: 1rem 1rem;
+    }
+
+    .diensten__list li {
+        width: 100%;
+    }
+
+    .diensten__list p {
+        font-size: 0.9em; 
+    }
+}

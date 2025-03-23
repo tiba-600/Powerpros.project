@@ -1,0 +1,13 @@
+.consultatie-btn button {
+    background-color: transparent; 
+    border: none;
+    background-color: var(--body);
+    color: var(--primary);
+    padding: 1rem 1rem;
+    border-radius: 5px; 
+}
+
+.consultatie-btn button:hover {
+    background-color: var(--primary);
+    color: var(--body);
+}

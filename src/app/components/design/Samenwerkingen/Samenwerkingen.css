@@ -1,0 +1,25 @@
+.required {
+    width: 35rem;
+    background-color: var(--button-background);
+    padding: 0.5rem 0rem;
+}
+
+.upload {
+    color: var(--black);
+}
+
+.solliciteer__verzenden {
+    font-size: 1.3rem;
+    color: var(--primary);
+}
+
+.samenwerking--option {
+    margin: 1rem 0rem;
+}
+
+.functietype  {
+    background: var(--label-background);
+    width: 100%;
+    padding: 0.5rem;
+    border: none;
+}

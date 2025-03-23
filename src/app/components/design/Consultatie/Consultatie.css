@@ -1,0 +1,54 @@
+.consultatie {
+    background-color: var(--header);
+    padding: 5rem 2rem;
+    margin-bottom: 1rem;
+    font-size: 1.3rem;
+    text-align: center;
+    border: 2px solid var(--primary);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.consultatie__title {
+    width: 100%;
+    max-width: 40rem;
+    color: var(--primary);
+    text-align: center;
+    margin: 0 auto;
+    font-size: 1.5rem;
+    padding: 0 1rem;
+}
+
+.consultatie__title span {
+    color: var(--body);
+}
+
+/* Media queries voor tablets */
+@media (max-width: 768px) {
+    .consultatie {
+        padding: 3rem 1.5rem; 
+        font-size: 1.2rem; 
+        gap: 1rem;
+    }
+
+    .consultatie__title {
+        max-width: 30rem; 
+        font-size: 1.3rem; 
+    }
+}
+
+/* Media queries voor mobiele apparaten */
+@media (max-width: 480px) {
+    .consultatie {
+        padding: 2rem 1rem; 
+        font-size: 1.1rem; 
+        gap: 0.8rem; 
+    }
+
+    .consultatie__title {
+        max-width: 100%; 
+        font-size: 1.2rem;  
+    }
+}

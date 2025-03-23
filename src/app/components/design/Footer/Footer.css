@@ -1,0 +1,26 @@
+.footer {
+    background-color: var(--header);
+    padding: 1rem;
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 2rem; 
+    justify-content: space-between; 
+}
+
+/* Media queries voor tablets */
+@media (max-width: 768px) {
+    .footer {
+        gap: 1.5rem; 
+        padding: 1rem 0.5rem; 
+    }
+}
+
+/* Media queries voor mobiele apparaten */
+@media (max-width: 480px) {
+    .footer {
+        flex-direction: column; 
+        align-items: center; 
+        gap: 1rem; 
+        text-align: center; 
+    }
+}

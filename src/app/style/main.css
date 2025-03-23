@@ -1,0 +1,16 @@
+body {
+    background-color: var(--body) ;
+}
+
+
+:root {
+--body: #162A2B;
+--header: #686866;
+--primary: #FCFBE7;
+--button-background:#f5f5dc;
+--label-background:#d9d9b3;
+--black: #000000;
+--icon:#f39c12;
+--white:#fbfbfb;
+}
+

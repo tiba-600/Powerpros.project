@@ -1,0 +1,104 @@
+.overons {
+    padding: 2rem; 
+  }
+  
+  .overons__info {
+    display: flex;
+    flex-direction: column; 
+    gap: 2rem; 
+    align-items: center; 
+  }
+  
+  .overons__description {
+    color: var(--primary);
+    font-size: 1.1rem; 
+    width: 100%; 
+    max-width: 40rem; 
+    padding-top: 1rem; 
+  }
+  
+  .overons__info img {
+    width: 100%; 
+    max-width: 600px; 
+    border-radius: 10px;
+    object-fit: cover;
+  }
+  
+  .overons__werk {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem; 
+  }
+  
+  .overons__werk img {
+    max-width: 100%; 
+    height: auto;
+    border: 5px solid var(--icon);
+  }
+  
+  .overons__reviews {
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+    flex-direction: column;
+  }
+  
+  .overons__klant {
+    color: var(--primary);
+    margin: 1rem;
+    text-align: center;
+  }
+  
+  .overons__reviews ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem; 
+    padding: 0;
+    margin: 0;
+    justify-content: center; 
+  }
+  
+  .overons__reviews li {
+    background-color: var(--primary);
+    padding: 1.5rem; 
+    width: 100%; 
+    max-width: 357px; 
+    border-radius: 15%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .overons__img {
+    margin: 1rem 0;
+  }
+  
+  /* Media Queries*/
+  @media (min-width: 768px) {
+    .overons {
+      padding: 5rem; 
+    }
+  
+    .overons__info {
+      flex-direction: row; 
+      gap: 5rem; 
+    }
+  
+    .overons__description {
+      font-size: 1.3rem; 
+      width: 40rem; 
+      padding-top: 3.2rem;
+    }
+  
+    .overons__klant {
+      font-size: 1.3rem; 
+    }
+  
+    .overons__reviews li {
+      width: 357px; 
+    }
+
+  }

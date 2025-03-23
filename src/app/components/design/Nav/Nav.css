@@ -1,0 +1,23 @@
+.navigation ul {
+    display: flex;
+    gap: 2rem;
+    font-size: 1.2rem;
+    padding-top: 0.5rem;
+}
+
+.navigation li {
+    list-style: none;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: var(--primary);
+}
+
+@media (max-width: 768px) {
+    .navigation ul {
+        flex-direction: column;
+        gap: 1rem;
+        font-size: 1rem;
+    }
+}

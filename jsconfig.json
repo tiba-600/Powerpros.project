@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+      "baseUrl": ".",
+      "target": "ES2020",
+      "module": "ESNext",
+      "moduleResolution": "bundler",
+      "paths": {
+        "@design/*": ["./src/app/components/design/*"],
+        "@functional/*": ["./src/app/components/functional/*"],
+        // "@core/*": ["./src/core/*"],
+        "@pages/*": ["./src/app/pages/*"],
+        "@style/*": ["./src/app/style/*"]
+      }
+    }
+  }

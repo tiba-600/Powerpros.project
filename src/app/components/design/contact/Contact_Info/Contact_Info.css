@@ -1,0 +1,58 @@
+.info__title {
+    color: var(--primary);
+    font-size: 1.3rem;
+}
+
+.info__list ul {
+    list-style: none;
+    padding-left: inherit;
+    font-size: 1.2rem;
+}
+
+.info__list li {
+    display: flex;
+    gap: 0.5rem;
+    padding-top: 0.5rem;
+}
+
+.info__icon {
+    padding-top: 0.3rem;
+}
+
+.info__btw a {
+    color: var(--black);
+    text-decoration: none;
+}
+
+.info__solliciteren a {
+    text-decoration: underline;
+    color: var(--black);
+}
+
+/* Media queries voor tablets */
+@media (max-width: 768px) {
+    .info__title {
+        font-size: 1.2rem; 
+    }
+
+    .info__list ul {
+        font-size: 1.1rem; 
+    }
+}
+
+/* Media queries voor mobiele apparaten */
+@media (max-width: 480px) {
+    .info__title {
+        font-size: 1.1rem; 
+    }
+
+    .info__list ul {
+        font-size: 1rem; 
+    }
+
+    .info__list li {
+        flex-direction: column;
+        align-items: center; 
+        text-align: center; 
+    }
+}

@@ -1,0 +1,111 @@
+.contact--list {
+    background-color: var(--primary);
+    padding: 1rem;
+    width: 100%; 
+    max-width: 35rem; 
+    height: 20rem;
+    border-radius: 1rem;
+    margin: 0 auto; 
+}
+
+.contact--list p {
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+    font-size: 1.2rem;
+}
+
+.contact__title {
+    color: var(--primary);
+    font-size: 2rem;
+    padding-bottom: 1.5rem;
+}
+
+.contact__img {
+    display: flex;
+    justify-content: center;
+}
+
+.contact__img img {
+    width: 80%;
+    max-width: 600px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.contact__openings {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.openingstijden__header {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.info__icon, .openingstijden__icon {
+    color: var(--icon);
+}
+
+.laden {
+    font-size: 1.3rem;
+    color: var(--primary);
+}
+
+/* Media queries voor tablets */
+@media (max-width: 768px) {
+    .contact--list {
+        width: 90%; 
+    }
+
+    .contact--list p {
+        font-size: 1.1rem; 
+    }
+
+    .contact__title {
+        font-size: 1.8rem;
+    }
+
+    .contact__img img {
+        width: 90%;
+    }
+}
+
+/* Media queries voor mobiele apparaten */
+@media (max-width: 480px) {
+    .contact--list {
+        width: 100%; 
+        padding: 0.5rem; 
+        height: 25rem;
+    }
+
+    .contact--list p {
+        font-size: 1rem; 
+        padding-left: 0.5rem; 
+    }
+
+    .contact__title {
+        font-size: 1.5rem; 
+    }
+
+    .contact__img img {
+        width: 100%;
+    }
+
+    .contact__openings {
+        align-items: center; 
+    }
+
+    .openingstijden__header {
+        flex-direction: column; 
+        align-items: center; 
+    }
+
+    .info__icon, .openingstijden__icon {
+        font-size: 1.2rem;
+    }
+
+    .laden {
+        font-size: 1.1rem; 
+    }
+}

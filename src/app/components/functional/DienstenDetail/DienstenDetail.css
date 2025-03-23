@@ -1,0 +1,137 @@
+.dienstdetail {
+    margin: 5rem;
+  }
+  
+  .dienstdetail__flex {
+    display: flex;
+  }
+  
+  .dienstdetail__info {
+    color: var(--primary);
+  }
+  
+  .dienstdetail__text {
+    width: 50%;
+    padding-top: 1.5rem;
+  }
+  
+  .dienstdetail__img {
+    width: 10%;
+    border-radius: 10px;
+    object-fit: cover;
+  }
+  
+  .dienstdetail__houdt {
+    color: var(--primary);
+    margin: 5rem 0rem;
+  }
+  
+  .dienstdetail__kiezen {
+    color: var(--primary);
+    margin: 5rem 0rem;
+  }
+  
+  .dienstdetail__titlekiezen,
+  .dienstdetail__houdttitle {
+    font-size: 1.5rem;
+    padding-bottom: 1rem;
+  }
+  
+  .dienstdetail__kiezenlist li {
+    display: flex;
+    list-style: none;
+    gap: 0.5rem;
+    padding-top: 1.3rem;
+  }
+  
+  .dienstdetail__kiezenlist ul {
+    padding-left: 0rem;
+  }
+  
+  .star__icon {
+    color: var(--icon);
+    padding-top: 0.2rem;
+    margin-bottom: 0.1rem;
+  }
+  
+  .dienstdetail__houdt ul {
+    padding-left: 0rem;
+    width: 82%;
+  }
+  
+  .dienstdetail__list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .dienstdetail__houdtlist {
+    flex-basis: calc(50% - 5px);
+    padding: 10px;
+    list-style: none;
+  }
+  
+  /* Media Queries voor Tablets */
+  @media (max-width: 768px) {
+    .dienstdetail {
+      margin: 3rem;
+    }
+  
+    .dienstdetail__flex {
+      flex-direction: column; 
+    }
+  
+    .dienstdetail__text {
+      width: 100%;
+    }
+  
+    .dienstdetail__img {
+      width: 20%;
+    }
+  
+    .dienstdetail__houdt ul {
+      width: 100%; 
+    }
+  
+    .dienstdetail__list {
+      gap: 5px;
+    }
+  
+    .dienstdetail__houdtlist {
+      flex-basis: calc(50% - 2.5px);
+    }
+  }
+  
+  /*Media Queries voor Mobiele*/
+  @media (max-width: 480px) {
+    .dienstdetail {
+      margin: 2rem;
+    }
+  
+    .dienstdetail__img {
+      width: 63%;
+      padding-top: 2rem;
+    }
+  
+    .dienstdetail__text {
+      padding-top: 1rem;
+    }
+  
+    .dienstdetail__houdt,
+    .dienstdetail__kiezen {
+      margin: 3rem 0rem; 
+    }
+  
+    .dienstdetail__titlekiezen,
+    .dienstdetail__houdttitle {
+      font-size: 1.3rem; 
+    }
+  
+    .dienstdetail__list {
+      gap: 5px; 
+    }
+  
+    .dienstdetail__houdtlist {
+      flex-basis: 100%;
+    }
+  }

@@ -1,0 +1,125 @@
+.contact-form {
+    background-color: var(--primary);
+    padding: 20px;
+    border-radius: 8px;
+    width: 100%; 
+    max-width: 44rem;
+    margin: auto; 
+    color: var(--black);
+  }
+  
+  .contact-form__description {
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+    text-align: center; 
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem; 
+  }
+  
+  label {
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  input,
+  textarea {
+    background-color: var(--label-background);
+    border: none;
+    padding: 8px;
+    border-radius: 4px;
+    font-size: 16px;
+    width: 100%; 
+  }
+  
+  textarea {
+    resize: none;
+  }
+  
+  button {
+    background-color: var(--label-background);
+    color: var(--black);
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 15px;
+    transition: background-color 0.3s ease; 
+  }
+  
+  button:hover {
+    background-color: #e6e3c3; 
+  }
+  
+  .contact__message {
+    background-color: var(--header);
+    color: var(--primary);
+    padding: 1rem;
+    text-align: center;
+    font-size: 1.3rem;
+    border: 2px solid var(--icon);
+    border-radius: 5px;
+    margin-top: 1rem; 
+  }
+  
+  /* Media queries voor tablets */
+  @media (max-width: 768px) {
+    .contact-form {
+      width: 90%; 
+      padding: 15px; 
+    }
+  
+    .contact-form__description {
+      font-size: 1.1rem;
+      padding-top: 1.3rem;
+    }
+  
+    input,
+    textarea {
+      padding: 6px; 
+      font-size: 14px; 
+    }
+  
+    button {
+      padding: 8px;
+      font-size: 14px; 
+    }
+  
+    .contact__message {
+      font-size: 1.1rem; 
+    }
+  }
+  
+  /* Media queries voor mobiele*/
+  @media (max-width: 480px) {
+    .contact-form {
+      width: 100%; 
+      padding: 10px; 
+      border-radius: 6px; 
+    }
+  
+    .contact-form__description {
+      font-size: 1rem; 
+    }
+  
+    input,
+    textarea {
+      padding: 5px;
+      font-size: 12px; 
+    }
+  
+    button {
+      padding: 6px; 
+      font-size: 12px; 
+    }
+  
+    .contact__message {
+      font-size: 1rem; 
+      padding: 0.8rem; 
+    }
+  }

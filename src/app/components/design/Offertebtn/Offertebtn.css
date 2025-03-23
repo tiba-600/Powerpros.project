@@ -1,0 +1,21 @@
+.offertebtn {
+    background-color: var(--body);
+    color: var(--primary);
+    border-radius: 0.5rem;
+    border: none;
+    padding: 0.5rem 1rem;
+    font-size: 1rem; 
+    cursor: pointer;
+}
+
+.offertebtn:hover {
+    background-color: var(--primary);
+    color: var(--body);
+}
+
+@media (max-width: 768px) {
+    .offertebtn {
+        font-size: 0.9rem; 
+        padding: 0.4rem 0.8rem;
+    }
+}

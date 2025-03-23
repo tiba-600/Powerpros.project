@@ -1,0 +1,34 @@
+.services__title {
+    color: var(--primary);
+    font-size: 1.3rem;
+}
+
+.services__list ul, .services__list a {
+    list-style: none;
+    text-decoration: none;
+    padding-left: inherit;
+    color: var(--black);
+    font-size: 1.3rem;
+}
+
+/* Media queries voor tablets */
+@media (max-width: 768px) {
+    .services__title {
+        font-size: 1.2rem;
+    }
+
+    .services__list ul, .services__list a {
+        font-size: 1.1rem;
+    }
+}
+
+/* Media queries voor mobiele apparaten */
+@media (max-width: 480px) {
+    .services__title {
+        font-size: 1.1rem; 
+    }
+
+    .services__list ul, .services__list a {
+        font-size: 1rem; 
+    }
+}

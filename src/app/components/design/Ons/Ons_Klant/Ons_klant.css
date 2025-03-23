@@ -1,0 +1,8 @@
+.klant__reviews ul {
+    display: flex;
+    list-style: none;
+    background-color: var(--header);
+    gap: 2rem;
+}
+
+

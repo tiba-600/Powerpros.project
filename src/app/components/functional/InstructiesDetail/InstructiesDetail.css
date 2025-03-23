@@ -1,0 +1,161 @@
+.instructie-detail {
+  margin: 5rem 1rem;
+}
+
+.instructie-detail h2 {
+  font-size: 1.5rem;
+}
+
+.instructiesdetail {
+  margin: 5rem;
+}
+
+.instructiesdetail__title {
+  font-size: 2rem;
+  color: var(--primary);
+  margin-bottom: 5rem;
+}
+
+.instructiesdetail__icon {
+  font-size: 2rem;
+  margin: 5rem;
+  color: var(--primary);
+  border: 2px solid var(--primary);
+  border-radius: 50%;
+}
+
+.instructiesdetail__antwoord {
+  color: var(--primary);
+  font-size: 1.5rem;
+}
+
+.instructiesdetail__antwoord li {
+  padding-bottom: 1.5rem;
+}
+
+.instructiesdetail__vragenlijst ul {
+  list-style: none;
+  display: flex;
+  margin: 0rem 2rem;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.instructiesdetail__vragenlijst li {
+  margin: 2rem 0;
+  background-color: var(--primary);
+  padding: 2rem;
+  border-radius: 0.5rem;
+  width: 100%;
+  max-width: 300px;
+  text-align: center;
+}
+
+.instructiesdetail__vragenlijst li:hover {
+  background-color: var(--header);
+  color: var(--black);
+}
+
+.instructiesdetail__vragenlijst a {
+  text-decoration: none;
+  color: var(--black);
+  font-weight: bold;
+}
+
+.instructiesdetail__flex {
+  display: flex;
+  justify-content: space-around;
+}
+
+.instructiesdetail__image-container img {
+  width: 50%;
+  height: 50%;
+  border-radius: 10px;
+  object-fit: cover;
+  margin-top: 6rem;
+}
+
+.instructiesdetail__vragenlijst h3 {
+  color: var(--primary);
+  font-size: 1.5rem;
+  margin: 0rem 5rem;
+}
+
+.instructiesdetail__vragenlijst {
+  margin: 5rem 0rem;
+}
+
+/* Media Queries voor tablets */
+@media (max-width: 768px) {
+  .instructiesdetail {
+    margin: 3rem;
+  }
+
+  .instructiesdetail__title {
+    font-size: 1.75rem;
+    margin-bottom: 3rem;
+  }
+
+  .instructiesdetail__icon {
+    font-size: 1.5rem;
+    margin: 3rem;
+  }
+
+  .instructiesdetail__vragenlijst ul {
+    margin: 0rem 1rem;
+    gap: 1rem;
+  }
+
+  .instructiesdetail__vragenlijst li {
+    padding: 1.5rem;
+    max-width: 250px;
+  }
+
+  .instructiesdetail__vragenlijst h3 {
+    margin: 0rem 3rem;
+  }
+}
+
+/* Media Queries voor mobiele apparaten */
+@media (max-width: 480px) {
+  .instructiesdetail {
+    margin: 2rem;
+  }
+
+  .instructiesdetail__title {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+  }
+
+  .instructiesdetail__icon {
+    font-size: 1.25rem;
+    margin: 2rem;
+  }
+
+  .instructiesdetail__vragenlijst ul {
+    margin: 0rem 0.5rem;
+    gap: 0.5rem;
+  }
+
+  .instructiesdetail__vragenlijst li {
+    padding: 1rem;
+    max-width: 100%;
+  }
+
+  .instructiesdetail__vragenlijst h3 {
+  }
+
+  .instructiesdetail__flex {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .instructiesdetail__image-container img {
+    width: 100%;
+    height: auto;
+  }
+
+  .instructiesdetail__antwoord li {
+    font-size: 1.2rem;
+  }
+}

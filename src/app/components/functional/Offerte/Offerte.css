@@ -1,0 +1,44 @@
+.Title-container {
+  margin-top: 5rem;
+  margin-bottom: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center; 
+}
+
+.Title-container p {
+  width: 100%;
+  max-width: 40rem; 
+  padding-top: 2rem;
+  font-size: 1.2rem;
+}
+
+/* Media queries voor tablets */
+@media (max-width: 768px) {
+  .Title-container {
+      margin-top: 3rem; 
+      margin-bottom: 2rem;
+  }
+
+  .Title-container p {
+      max-width: 30rem;
+      font-size: 1.1rem; 
+      padding-top: 1.5rem; 
+  }
+}
+
+/* Media queries voor mobiele apparaten */
+@media (max-width: 480px) {
+  .Title-container {
+      margin-top: 2rem; 
+      margin-bottom: 1rem;
+  }
+
+  .Title-container p {
+      max-width: 100%; 
+      font-size: 1rem; 
+      padding-top: 1rem; 
+  }
+
+}

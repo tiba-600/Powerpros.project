@@ -1,0 +1,48 @@
+.formulier__formulier {
+  background-color: var(--primary);
+  padding: 20px;
+  border-radius: 8px;
+  width: 100%;
+  max-width: 44rem; 
+  margin: auto;
+  color: var(--black);
+}
+
+.formulier__formulier h2 {
+  text-align: center;
+  padding: 2rem 2rem;
+}
+
+/* Media queries voor tablets */
+@media (max-width: 768px) {
+  .formulier__formulier {
+    width: 90%; 
+    padding: 15px;
+  }
+}
+
+/* Media queries voor mobiele apparaten */
+@media (max-width: 480px) {
+  .formulier__formulier {
+    width: 100%; 
+    padding: 10px; 
+    border-radius: 6px;
+  }
+}
+
+.formulier {
+  margin: 5rem 0rem;
+}
+
+.formulier__from {
+  background-color: var(--primary);
+}
+
+.formulier__from input {
+  margin-bottom: 1rem;
+}
+
+.formulier__servicetype {
+    background-color: var(--label-background);
+    padding: 0.5rem;
+}
