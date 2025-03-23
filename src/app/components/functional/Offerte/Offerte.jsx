@@ -1,7 +1,7 @@
 import { Form, NavLink } from "react-router";
 import { useState } from "react";
 import "./Offerte.css";
-import Formulier from "@design/offerte/Formulier/Formulier";
+import Formulier from "@design/Offerte/Formulier/Formulier";
 import Title_pagina from "@design/Title_pagina/Title_pagina";
 import Offerte_voordelen from "@design/Offerte_voordelen/Offerte_voordelen";
 import Bedankt from "@design/Bedankt/Bedankt";
